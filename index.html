@@ -129,3 +129,56 @@ section class="genres">
     <p>Hip-Hop</p>
   </div>
 </section>
+<section class="browser-section">
+  <h2>🎵 Explore by Genre</h2>
+  <div class="browser-grid">
+    <div class="browser-card">
+      <img src="https://source.unsplash.com/100x100/?pop-singer" alt="Pop">
+      <p>Pop</p>
+    </div>
+    <div class="browser-card">
+      <img src="https://source.unsplash.com/100x100/?rock-band" alt="Rock">
+      <p>Rock</p>
+    </div>
+    <div class="browser-card">
+      <img src="https://source.unsplash.com/100x100/?jazz-musician" alt="Jazz">
+      <p>Jazz</p>
+    </div>
+    <div class="browser-card">
+      <img src="https://source.unsplash.com/100x100/?hip-hop-artist" alt="Hip-Hop">
+      <p>Hip-Hop</p>
+    </div>
+    <div class="browser-card">
+      <img src="https://source.unsplash.com/100x100/?classical" alt="Classical">
+      <p>Classical</p>
+    </div>
+    <div class="browser-card">
+      <img src="https://source.unsplash.com/100x100/?edm" alt="EDM">
+      <p>EDM</p>
+    </div>
+  </div>
+</section>
+.browser-section {
+  padding: 2em;
+  background-color: #fff;
+  text-align: center;
+}
+
+.browser-section h2 {
+  margin-bottom: 1em;
+}
+
+.browser-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 1em;
+  justify-items: center;
+}
+
+.browser-card {
+  background-color: #f9f9f9;
+  padding: 1em;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.2s;
+  cursor:
